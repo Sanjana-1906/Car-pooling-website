@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+h1,h5{
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.joinpage {
+  font-family: "PT Serif", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.joinpage-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.joinpage-text-center {
+  text-align: center;
+}
+
+.joinpage-display-4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.joinpage-content-animation-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  align-items: center;
+  justify-content: space-around; /* Ensure equal spacing */
+  gap: 20px; /* Space between elements */
+  margin-top: 50px;
+}
+
+.joinpage-animation {
+  flex: 1;
+  max-width: 400px; 
+  margin-left: 20px;
+}
+
+.joinpage-content {
+  flex: 1;
+  max-width: 600px;
+  color: #333; /* Ensure text is visible */
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.joinpage-navy-line {
+  width: 800px;
+  height: 4px;
+  background-color: orange;
+  margin: 0 auto 20px;
+  transition: width 0.8s cubic-bezier(0.25, 0.1, 0.25, 1); 
+}
+
+.joinpage-navy-line:hover {
+  width: 1000px;
+}
+
+.joinpage-text-left {
+  text-align: left;
+}
+
+.joinpage-mt-4 {
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,35 @@
+.Home{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .divi {
+    background: url(https://e0.pxfuel.com/wallpapers/915/846/desktop-wallpaper-ford-mustang-gt-mustangs-daily-mustang-car-2014-mustang.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+  }
+  .heading {
+    padding-top: 15vh;
+    margin-left: 4vw;
+    font-size: 5vw;
+  }
+  .buttons {
+    margin-top: 3.5vh;
+    margin-left: 4vw;
+  }
+  span {
+    color: orange;
+  }
+  
+  .buttons button {
+    border-radius: 0.8rem;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, orange, orange, rgb(255, 98, 0));
+  }
+  .buttons button:hover {
+    border-color: orange;
+    color: orange;
+    background-image: none;
+    background-color: white;
+  }
